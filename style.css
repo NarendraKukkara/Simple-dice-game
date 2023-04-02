@@ -1,0 +1,27 @@
+body {
+    background-color: green; /* set a background color as a fallback */
+    background-image: url(table.jpg);
+    background-repeat: repeat; /* repeat the texture */
+}
+.parent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .child {
+    padding: 20px;
+    border-radius: 10px;
+}
+h1 {
+    text-align: center;
+    color: orangered;
+    font-family: 'Bodoni Moda', serif;
+}  
+#result {
+    text-align: center;
+}
+p {
+        font-size: 24px;
+  }
+  
